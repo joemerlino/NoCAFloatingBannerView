@@ -1,7 +1,5 @@
 %hook CABottomAdBannerViewPresenter
--(void)setController:(UIViewController*)arg {
-	arg = [[UIViewController alloc] init];
-	arg.view.hidden = YES;
-    %orig;
+-(void)presentOnView:(id)arg pinBottomToView:(id)arg2{
+	return ;
 }
 %end
