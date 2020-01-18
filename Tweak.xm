@@ -1,5 +1,5 @@
-%hook CABottomAdBannerViewPresenter
--(void)presentOnView:(id)arg pinBottomToView:(id)arg2{
+%hook YTAppViewController
+- (void)h9boEaSeeEaVD8pdy2k6{
 	return ;
 }
 %end
